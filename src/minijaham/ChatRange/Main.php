@@ -46,7 +46,7 @@ class Main extends PluginBase implements Listener
 	
 	public function onChat(PlayerChatEvent $event) {
 		$player     = $event->getPlayer();
-		$recipients = [(new ConsoleCommandSender($this->getServer(), $this->getServer()->getLanguage()))];
+		$recipients = [(new ConsoleCommandSender($this->getServer(), $this->getServer()->getLanguage())), $player];
 		
 		$range      = $this->config->get("range");
 		$entities   = $player->getWorld()->getNearbyEntities($player->getBoundingBox()->expandedCopy($range, 255, $range), $player);
