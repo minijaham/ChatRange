@@ -1,4 +1,6 @@
 ## ChatRange
+[![](https://poggit.pmmp.io/shield.state/ChatRange)](https://poggit.pmmp.io/p/ChatRange)
+
 This plugin for PocketMine-MP will allow players to only chat with players in a certain range!
 
 # Developer Tool
