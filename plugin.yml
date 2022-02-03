@@ -14,4 +14,7 @@ permissions:
   command.sudo:
     description: "Permission to sudo a player!"
     default: op
+  chat.receive:
+    description: "Permission to see messages regardless of the range!"
+    default: op
 ...
