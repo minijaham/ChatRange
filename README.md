@@ -19,3 +19,8 @@ range: 50
 # Options: true/false
 send-to-op: true
 ```
+
+# Permissions
+| Permission | Description                |
+| ------- | ----------------------------- |
+| chat.receive | Allow a player to see chat messages regardless of the range |
