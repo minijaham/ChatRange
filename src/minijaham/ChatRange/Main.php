@@ -57,7 +57,7 @@ class Main extends PluginBase implements Listener
 		}
 		if ($this->config->get("send-to-op") == true) {
 			foreach ($this->getServer()->getOnlinePlayers() as $p) {
-				if ($this->getServer()->isOp($p->getName())) {
+				if ($p->hasPermission("chat.receive")) {
 					if (in_array($p, $recipients)) # Check if the OP player is already in the array
 						continue;
 					array_push($recipients, $p);
