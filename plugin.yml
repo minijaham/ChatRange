@@ -7,14 +7,14 @@ author: minijaham
 
 commands:
   sudo:
-    description: "Sudo a player!"
+    description: 다른 플래이어로 채팅이나 커맨드를 입력합니다""
     permission: "command.sudo"
 
 permissions:
   command.sudo:
-    description: "Permission to sudo a player!"
+    description: "커맨드 /sudo 권한"
     default: op
   chat.receive:
-    description: "Permission to see messages regardless of the range!"
+    description: "거리를 무시하고 챗을 볼 수 있게 합니다"
     default: op
 ...
