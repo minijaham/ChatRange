@@ -7,7 +7,7 @@ author: minijaham
 
 commands:
   sudo:
-    description: 다른 플래이어로 채팅이나 커맨드를 입력합니다""
+    description: "다른 플래이어로 채팅이나 커맨드를 입력합니다"
     permission: "command.sudo"
 
 permissions:
