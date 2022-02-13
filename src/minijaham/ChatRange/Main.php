@@ -30,8 +30,8 @@ class Main extends PluginBase implements Listener
 			# Credit to ErikPDev for this code
 			case "sudo":
 			if (count($args) < 2) {
-				$sender->sendMessage('Usage: /sudo <player> <message>');
-				$sender->sendMessage('If you wish to execute a command, add "/" in front of the message argument.');
+				$sender->sendMessage('사용법: /sudo <플래이어> <메시지>');
+				$sender->sendMessage('커맨드 입력을 원하신다면 "/"를 앞에 붙여주세요');
 				return true;
 			}
 			$player = $this->getServer()->getPlayerExact(array_shift($args));
