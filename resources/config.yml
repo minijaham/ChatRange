@@ -1,6 +1,6 @@
 ---
-# Message range in block count
+# 챗을 볼 수 있는 블럭 수 (integer)
 range: 50
-# Whether to send message to OPs, regardless of the range
+# chat.receive 권한이 있는 사람에게는 거리에 상관없이 무조건 보이게 하기 (true/false)
 send-to-op: true
 ...
